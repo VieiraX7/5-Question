@@ -1,0 +1,13 @@
+# String de exemplo
+string = input("String:")
+
+# Inicializando uma nova string para armazenar o resultado
+string_invertida = ""
+
+# Iterando sobre a string original de trás para frente
+for i in range(len(string) - 1, -1, -1):
+    string_invertida += string[i]
+
+# Exibindo o resultado
+print("String original:", string)
+print("String invertida:", string_invertida)
